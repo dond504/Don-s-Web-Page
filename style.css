@@ -1,0 +1,56 @@
+/* sets the background color, fontsize margins and padding of my header and footer, the body background color should be covered by black at the top of the page and bottom.*/
+
+header, footer {
+ background-color: black;
+ font-size: 48px;
+ margin: auto;
+ padding: 10px;
+}
+
+/* makes the background of the whole page a really light gray color.*/
+
+body{
+ background-color: whitesmoke;
+
+}
+
+/* make all links normal color gold. when you hover your mouse it should turn white, and when you click the link it should turn red. for some reason the only link that turns gold is github. don't know why. who ever sees this feel free to leave comments or suggestions.*/
+
+a:link    { color: rgb(133, 110, 51); }
+a:hover   { color: white;}
+a:active  { color: red;}
+
+
+hr{
+  height: 2px;
+
+}
+
+/* adjusts the font style and color of all text in the header, footer, and all paragraphs.*/
+
+header, footer, p {
+  font-family:cursive;
+  color: rgb(133, 110, 51)
+}
+
+/* alligns the text in the header to the right of the image. */
+
+.header-text {
+  text-align:right;
+  }
+
+/* centers the text */
+.center-text{
+  text-align: center;
+
+}
+
+/* makes sure the dots and numbers from the listed items are inside the wrapper. */
+.list-inside{
+  list-style-position: inside;
+}
+/* centers the content inside the wrapper*/
+.wrapper{
+  width: 400px;
+  margin: auto;
+}
